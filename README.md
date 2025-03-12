@@ -85,6 +85,48 @@ Follow the interactive prompts to select:
 - Return to the main menu or restart the application as needed
 - Type 'help' at city selection to see available options
 
+## Example
+
+Below is a sample interaction with the script:
+
+```
+Hello! Let's explore some US bikeshare data!
+
+Which City would you like to view? type 'help' to see your options: 
+Chicago
+
+Which Month would you like to filter by? type 'help' to see your options, or 'all' to see all months: 
+All
+
+Which day would you like to filter by? Type 'all' for no day filter: 
+Monday
+
+How would you like to view your data?
+Please enter the option number from the choices below, or type 'restart' to restart:
+1: Display raw data
+2: Display statistics on the most frequent times of travel
+3: Display statistics on the most popular stations and trip
+4: Display statistics on the total and average trip duration
+5: Display statistics on bikeshare users
+
+2
+
+Calculating The Most Frequent Times of Travel...
+
+Most Frequent Month of travel: June
+Most Frequent Day of travel: Monday
+Most Frequent Hour of travel: 8:00
+
+This took 0.1 seconds.
+----------------------------------------
+
+Please chose an option:
+1: Back to main menu
+2: restart
+
+1
+```
+
 ## 📁 Data Structure
 
 The program expects CSV files with the following columns:
