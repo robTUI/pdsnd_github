@@ -127,6 +127,29 @@ Please chose an option:
 1
 ```
 
+## Code Structure
+
+This script is modular, with functions dedicated to specific tasks:
+
+- `get_filters()`: Prompts the user for city, month, and day inputs.
+
+- `load_data()`: Loads the CSV data and applies the specified filters.
+
+- `main_menu()`: Displays the main menu and processes user selections.
+
+- `show_rows()`: Shows raw data in 5-row increments, with options to continue or stop.
+
+- `time_stats()`: Displays the most frequent travel times.
+
+- `station_stats()`: Identifies popular stations and trips.
+
+- `trip_duration_stats()`: Calculates total and average trip durations.
+
+- `user_stats()`: Displays user demographic data.
+
+- `restart_app()`: Allows restarting the app or returning to the main menu.
+
+
 ## 📁 Data Structure
 
 The program expects CSV files with the following columns:
