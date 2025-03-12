@@ -35,7 +35,7 @@ def get_filters():
             print("\nCity not found, type 'help' to see your options!\n")
     # get user input for month (all, january, february, ... , june)
     while True:        
-        month = input("\nWhich Month would you like to filter by? type 'help' to see your options, or 'all' to see all months: \n").title()
+        month = input("\nWhich Month would you like to filter by? We have date for January to June.\n type 'help' to see your options, or 'all' to see all months: \n").title()
         if month == 'Help':
             print("\nyour options are:\nJanuary | February | March | April | May | June\n")
         elif month == 'All':
