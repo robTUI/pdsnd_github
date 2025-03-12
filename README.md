@@ -85,7 +85,7 @@ Follow the interactive prompts to select:
 - Return to the main menu or restart the application as needed
 - Type 'help' at city selection to see available options
 
-## Example
+## ⭐ Example
 
 Below is a sample interaction with the script:
 
@@ -127,7 +127,7 @@ Please chose an option:
 1
 ```
 
-## Code Structure
+## ⭐ Code Structure
 
 This script is modular, with functions dedicated to specific tasks:
 
